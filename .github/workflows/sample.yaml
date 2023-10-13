@@ -8,4 +8,4 @@ jobs:
     runs-on: my-runner
     steps:
       - name: execute script
-        run: mkdir veeru
+        run: mkdir manoj
