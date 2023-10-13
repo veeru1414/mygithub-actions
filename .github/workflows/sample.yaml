@@ -7,7 +7,5 @@ jobs:
     name: Lint code base
     runs-on: my-runner
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
       - name: execute script
         run: mkdir veeru
