@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   build:
-    runs-on: ubuntu-latest    
+    runs-on: myselfrunner-1   
     steps:
     - name: Check out the code
       uses: actions/checkout@v2
