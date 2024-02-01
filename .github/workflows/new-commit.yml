@@ -10,9 +10,9 @@ jobs:
         git version
      - name: download docker
        run: |
-        apt-get update -y
-        apt-get install docker.io -y
-        wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz
-        tar xvzf  apache-tomcat-9.0.85.tar.gz
-        cd apache-tomcat-9.0.85/bin
+        sudo apt-get update -y
+        sudo apt-get install docker.io -y
+        sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz
+        sudo tar xvzf  apache-tomcat-9.0.85.tar.gz
+        sudo cd apache-tomcat-9.0.85/bin
         ./startup.sh
