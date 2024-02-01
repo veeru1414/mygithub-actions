@@ -12,4 +12,4 @@ jobs:
          var-4: veeru
          var-5: vinay
        run: | 
-         echo  $var-1,$var-2,$var-3,$var-4,$var-5
+         echo  " $var-1 $var-2 $var-3 $var-4 $var-5 "
