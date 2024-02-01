@@ -1,19 +1,16 @@
-name: execute-Script
-on: push
-jobs:
-  example-job:
-   runs-on: myselfrunner-1
-   steps:
-     - name: checking the versions
-       run: |
-        java -version
-        git version
-     - name: download docker
-       shell: bash
-       run: |
-        sudo apt-get update -y
-        sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz
-        sudo tar xvzf  apache-tomcat-9.0.85.tar.gz
-        rm -rf apache-tomcat-9.0.85.tar.gz
-        sudo cd apache-tomcat-9.0.85/bin
-        ./startup.sh
+#name: execute-Script
+#on: push
+#jobs:
+#  example-job:
+#   runs-on: myselfrunner-1
+#   steps:
+#     - name: checking the version
+#        git version
+#       shell: bash
+#       run: |
+#        sudo apt-get update -y
+#        sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz
+#        sudo tar xvzf  apache-tomcat-9.0.85.tar.gz
+#        rm -rf apache-tomcat-9.0.85.tar.gz
+#        sudo cd apache-tomcat-9.0.85/bin
+#        ./startup.sh
