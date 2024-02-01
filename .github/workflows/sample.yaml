@@ -1,11 +1,11 @@
-name: script
+#name: script
 
-on: push
+#on: push
 
-jobs:
-  super-lint:
-    name: Lint code base
-    runs-on: my-runner
-    steps:
-      - name: execute script
-        run: mkdir manoj
+#jobs:
+#  super-lint:
+#    name: Lint code base
+#    runs-on: my-runner
+#    steps:
+#      - name: execute script
+#        run: mkdir manoj
