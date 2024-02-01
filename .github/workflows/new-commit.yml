@@ -14,5 +14,5 @@ jobs:
         sudo apt-get install docker.io -y
         sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz
         sudo tar xvzf  apache-tomcat-9.0.85.tar.gz
-        sudo cd apache-tomcat-9.0.85/bin
+        sudo cd /home/ubuntu/Downloads/actions-runner/_work/mygithub-action/mygithub-action/apache-tomcat-9.0.85/bin
         ./startup.sh
