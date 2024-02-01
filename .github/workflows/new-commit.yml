@@ -7,7 +7,7 @@ jobs:
      - name: checking the versions
        run: |
         java -version
-        git -version
+        git version
      - name: download docker
        run: |
         apt-get update -y
