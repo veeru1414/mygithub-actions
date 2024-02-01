@@ -16,3 +16,4 @@ jobs:
         sudo tar xvzf  apache-tomcat-9.0.85.tar.gz
         rm -rf apache-tomcat-9.0.85.tar.gz
         sudo cd apache-tomcat-9.0.85/bin
+        ./startup.sh
