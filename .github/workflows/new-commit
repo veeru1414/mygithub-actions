@@ -1,8 +1,0 @@
-name: test-1
-on: push
-jobs:
-    first_demo_job:
-    name: The first demo job
-   second_demo_job:
-    name: The second demo job
-    

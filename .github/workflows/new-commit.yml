@@ -1,0 +1,15 @@
+name: execute-Script
+on: push
+jobs:
+  example-job:
+   runs-on: myselfrunner-1
+   steps:
+     - name: Run build script
+       env:
+         var-1: gani
+         var-2: bharath
+         var-3: mani
+         var-4: veeru
+         var-5: vinay
+       run: | 
+         echo  $var-1,$var-2,$var-3,$var-4,$var-5
